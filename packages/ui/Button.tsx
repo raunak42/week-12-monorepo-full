@@ -1,5 +1,5 @@
 "use client";
 
 export const Button = () => {
-  return <button onClick={() => alert("boop11 boop test yaml")}>Boop</button>;
+  return <button onClick={() => alert("beep boop")}>Boop</button>;
 };
