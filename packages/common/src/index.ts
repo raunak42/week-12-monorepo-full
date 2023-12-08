@@ -11,3 +11,6 @@ export type UserInputType2 = {
     email: string,
     password: string
 }//both types are the same.
+
+//just making a change here to trigger github action
+
