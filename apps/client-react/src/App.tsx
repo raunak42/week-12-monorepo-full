@@ -34,13 +34,14 @@ function App() {
       <div>
         <button onClick={() => {
           const userDetails: UserInputType = {
-            email: "",
-            password: ""
-          };
-          console.log(userDetails);
-          count + 1;
-
-        }}></button>
+            email:"",
+            password:""
+          }
+          userDetails;
+          setCount((count) => count - 1)
+        }}>
+          count is {count}
+        </button>
       </div>
     </>
   )
