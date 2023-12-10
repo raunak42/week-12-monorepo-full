@@ -31,13 +31,17 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Button />
-      <button onClick={() => {
-        const userDetails: UserInputType = {
-          email: "",
-          password: ""
-        };
-        console.log(userDetails)
-      }}></button>
+      <div>
+        <button onClick={() => {
+          const userDetails: UserInputType = {
+            email: "",
+            password: ""
+          };
+          console.log(userDetails);
+          count + 1;
+
+        }}></button>
+      </div>
     </>
   )
 }
